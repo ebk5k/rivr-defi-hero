@@ -10,7 +10,7 @@ import BottomRightCorner from "./BottomRightCorner";
 import HeroBadge from "./HeroBadge";
 import SiteNavbar from "./SiteNavbar";
 
-const HERO_IMAGE = `data:image/webp;base64,${heroData1}${heroData2}${heroData3}${heroData4}${heroData5}${heroData6}`;
+const HERO_IMAGE = `data:image/jpeg;base64,${heroData1}${heroData2}${heroData3}${heroData4}${heroData5}${heroData6}`;
 
 export default function Hero() {
 	return (
