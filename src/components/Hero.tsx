@@ -19,21 +19,21 @@ export default function Hero() {
 					loop
 					playsInline
 					src={VIDEO_URL}
-					className="absolute inset-0 w-full h-full object-cover object-[64%_center] lg:object-center z-0"
+					className="absolute inset-0 w-full h-full object-cover object-[58%_center] sm:object-[64%_center] lg:object-center z-0"
 				/>
 				<div className="absolute inset-0 bg-gradient-to-b from-white/15 via-transparent to-[#1a2b4a]/15 z-[1]" />
 
-				<div className="relative z-10 w-full h-full flex flex-col items-center">
+				<div className="absolute inset-0 z-10 w-full flex flex-col items-center">
 					<SiteNavbar />
 
-					<div className="w-full flex flex-col items-center pt-[7vh] sm:pt-[8vh] md:pt-9 px-5 text-center max-w-5xl">
+					<div className="w-full flex-1 flex flex-col items-center pt-[4.5svh] sm:pt-[8vh] md:pt-9 px-5 pb-[9rem] sm:pb-[10rem] text-center max-w-5xl">
 						<HeroBadge />
 
 						<motion.h1
 							initial={{ opacity: 0, scale: 0.98 }}
 							animate={{ opacity: 1, scale: 1 }}
 							transition={{ duration: 0.8, delay: 0.2 }}
-							className="text-[clamp(2.65rem,12vw,4.6rem)] lg:text-[80px] font-normal text-[#5E6470] mb-3 tracking-[-0.045em] leading-[0.97] max-w-[850px]"
+							className="text-[clamp(2.45rem,11.5vw,4.6rem)] lg:text-[80px] font-normal text-[#5E6470] mb-3 tracking-[-0.045em] leading-[0.97] max-w-[850px]"
 						>
 							Fluid assets.<br className="sm:hidden" /> Limitless flow.
 						</motion.h1>
@@ -52,7 +52,7 @@ export default function Hero() {
 							initial={{ opacity: 0, y: 12 }}
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.7, delay: 0.55 }}
-							className="flex items-center gap-2 mt-6"
+							className="flex flex-wrap items-center justify-center gap-2 mt-5 sm:mt-6"
 						>
 							<a
 								href="#vaults"
