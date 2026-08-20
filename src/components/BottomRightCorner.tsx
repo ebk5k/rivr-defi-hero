@@ -3,7 +3,8 @@ import { motion } from "motion/react";
 
 export default function BottomRightCorner() {
 	return (
-		<motion.div
+		<motion.a
+			href="#vaults"
 			initial={{ y: 20, opacity: 0 }}
 			animate={{ y: 0, opacity: 1 }}
 			transition={{ duration: 0.8, delay: 0.4 }}
@@ -26,12 +27,12 @@ export default function BottomRightCorner() {
 			</div>
 
 			<div className="flex flex-col">
-				<span className="text-[16px] md:text-[20px] font-normal text-[rgba(30,50,90,0.95)]">Read the docs</span>
-				<div className="flex items-center gap-1 text-[rgba(30,50,90,0.6)] cursor-pointer hover:text-[rgba(30,50,90,0.8)] transition-colors">
-					<span className="text-[12px] md:text-[15px] font-normal">Library</span>
+				<span className="text-[16px] md:text-[20px] font-normal text-[rgba(30,50,90,0.95)]">Explore services</span>
+				<div className="flex items-center gap-1 text-[rgba(30,50,90,0.6)] hover:text-[rgba(30,50,90,0.8)] transition-colors">
+					<span className="text-[12px] md:text-[15px] font-normal">Repairs & installs</span>
 					<ChevronRight className="w-3 h-3 md:w-4 md:h-4" />
 				</div>
 			</div>
-		</motion.div>
+		</motion.a>
 	);
 }
