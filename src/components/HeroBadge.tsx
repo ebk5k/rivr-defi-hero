@@ -11,7 +11,7 @@ export default function HeroBadge() {
 		>
 			<Sparkles className="w-4 h-4 text-[rgba(30,50,90,0.8)]" />
 			<span className="text-[14px] font-normal text-[rgba(30,50,90,0.9)]">
-				Fluid Staking
+				Professional Plumbing Service
 			</span>
 		</motion.div>
 	);
