@@ -7,14 +7,14 @@ export default function BottomLeftCard() {
 			initial={{ x: -20, opacity: 0 }}
 			animate={{ x: 0, opacity: 1 }}
 			transition={{ duration: 0.8, delay: 0.2 }}
-			className="absolute bottom-[6.2rem] left-4 right-auto md:left-6 md:bottom-6 lg:bottom-10 lg:left-10 p-3.5 md:p-4 lg:p-5 rounded-[1.3rem] md:rounded-[1.5rem] lg:rounded-[2.2rem] bg-white/35 border border-white/30 backdrop-blur-xl flex flex-col gap-2 lg:gap-3 min-w-[148px] md:min-w-[150px] lg:min-w-[180px] w-fit"
+			className="absolute bottom-[6.2rem] left-4 right-auto md:left-6 md:bottom-6 lg:bottom-10 lg:left-10 p-3.5 md:p-4 lg:p-5 rounded-[1.3rem] md:rounded-[1.5rem] lg:rounded-[2.2rem] bg-white/45 border border-white/40 backdrop-blur-xl flex flex-col gap-2 lg:gap-3 min-w-[148px] md:min-w-[150px] lg:min-w-[180px] w-fit"
 		>
 			<div className="flex flex-col">
 				<span className="text-2xl md:text-3xl font-normal text-[rgba(30,50,90,0.9)] tracking-tight">
-					5.2K
+					24/7
 				</span>
 				<span className="text-[10px] md:text-[12px] font-normal text-[rgba(30,50,90,0.6)] uppercase tracking-wider">
-					Active depositors
+					Emergency response
 				</span>
 			</div>
 
@@ -28,7 +28,7 @@ export default function BottomLeftCard() {
 					<ArrowUpRight className="w-4 h-4 text-[rgba(30,50,90,0.9)]" />
 				</div>
 				<span className="text-[14px] font-normal text-[rgba(30,50,90,0.9)]">
-					Join RIVR
+					Book service
 				</span>
 			</motion.a>
 		</motion.div>
