@@ -1,16 +1,10 @@
 import { motion } from "motion/react";
-import heroData1 from "../heroData1";
-import heroData2 from "../heroData2";
-import heroData3 from "../heroData3";
-import heroData4 from "../heroData4";
-import heroData5 from "../heroData5";
-import heroData6 from "../heroData6";
 import BottomLeftCard from "./BottomLeftCard";
 import BottomRightCorner from "./BottomRightCorner";
 import HeroBadge from "./HeroBadge";
 import SiteNavbar from "./SiteNavbar";
 
-const HERO_IMAGE = `data:image/webp;base64,${heroData1}${heroData2}${heroData3}${heroData4}${heroData5}${heroData6}`;
+const HERO_IMAGE = "/assets/plumbing-hero.webp";
 
 export default function Hero() {
 	return (
